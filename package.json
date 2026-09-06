@@ -1,0 +1,26 @@
+{
+  "name": "personal-ai-dashboard",
+  "version": "1.0.0",
+  "description": "Personal AI Dashboard with voice control, tasks, reminders, and calendar",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node backend/server.js",
+    "dev:all": "concurrently \"npm run dev\" \"npm run server\""
+  },
+  "dependencies": {
+    "firebase": "^10.7.1",
+    "groq-sdk": "^0.3.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "twilio": "^4.19.0",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8",
+    "concurrently": "^8.2.2"
+  }
+}
