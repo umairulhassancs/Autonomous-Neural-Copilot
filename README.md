@@ -1,5 +1,6 @@
 # ⚡ Autonomous Neural Copilot (JON OS)
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel%20Production-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://autonomous-neural-copilot.vercel.app/)
 [![Groq LLaMA 3 & Whisper](https://img.shields.io/badge/Groq-LLaMA%203.3%20%7C%20Whisper%20Large%20v3-F55036?style=for-the-badge&logo=fastapi&logoColor=white)](https://groq.com)
 [![Firebase Cloud](https://img.shields.io/badge/Firebase-Auth%20%26%20Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
@@ -8,6 +9,8 @@
 An enterprise-grade, voice-activated autonomous personal AI copilot and executive productivity workspace. Built with ultra-low latency LLM inference via **Groq (LLaMA 3.3 70B & Whisper Large v3 Turbo)**, **Firebase Cloud Firestore**, real-time **Web Audio API** energy/frequency processing, and an **Executive Cyber-Glass Design System**.
 
 Jon OS operates either completely hands-free via continuous wake-word listening and conversational silence-detection or through a unified command HUD interface.
+
+🔗 **Production Deployment:** [https://autonomous-neural-copilot.vercel.app/](https://autonomous-neural-copilot.vercel.app/)
 
 ---
 
@@ -176,6 +179,7 @@ npm run preview
 ---
 
 ## 🌐 Deployment
+- **Live URL:** [https://autonomous-neural-copilot.vercel.app/](https://autonomous-neural-copilot.vercel.app/)
 
 ### Deploying to Vercel
 1. Import the repository into [Vercel](https://vercel.com/new).
@@ -183,7 +187,7 @@ npm run preview
 3. Under **Project Settings &rarr; Environment Variables**, add the variables defined in your `.env`.
 4. Deploy. The included `vercel.json` ensures all routes redirect correctly to `index.html`.
 
-> **Important:** In your **Firebase Console**, navigate to **Authentication &rarr; Settings &rarr; Authorized Domains** and add your Vercel deployment domain (e.g. `your-app.vercel.app`) to authorize login requests.
+> **Important:** In your **Firebase Console**, navigate to **Authentication &rarr; Settings &rarr; Authorized Domains** and ensure `autonomous-neural-copilot.vercel.app` is added to authorize login requests.
 
 ---
 
